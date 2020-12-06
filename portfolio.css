@@ -155,24 +155,16 @@ li {
   display: flex;
   align-items: center;
 }
-.modal-btn {
+.modal-btn-second {
   font-style: normal;
 }
-.modal-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.modal-btn:hover,
-.modal-btn:focus {
-  color: var(--accent-color-logo);
-  background: var(--accent-color);
+.modal-btn-second:hover,
+.modal-btn-second:focus {
+  color: #ffffff;
+  background: #2196f3;
 }
 
-.modal-btn .list {
+.modal-btn-second .list {
   font-style: normal;
 }
 .list-pictures-item {
@@ -204,10 +196,9 @@ li {
   list-style-type: none;
 }
 
-.modal-btn {
-  min-width: 128px;
+.modal-btn-second {
+  min-width: 103px;
   height: 38px;
-  left: 576px;
   top: 174px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -217,19 +208,19 @@ li {
   cursor: pointer;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
-
   background: #f5f4fa;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+
   border-radius: 4px;
   padding-left: 22px;
   padding-right: 22px;
   padding-bottom: 6px;
   padding-top: 6px;
+  border-color: transparent;
+  margin-left: 8px;
 }
-/*.modal-btn {
-  margin-left: 125px;
-  margin-right: 8px;}*/
 
 .list-pictures {
   display: flex;
@@ -265,18 +256,18 @@ li {
 /*============end-main-section===============*/
 
 /*========contacts========*/
-.contacts .container {
+.contacts {
   display: flex;
   background: #2f303a;
   height: 252px;
-  width: 1600px;
+  width: 100%;
   left: 0px;
   top: 2097px;
 }
 .navigation-list-footer {
   display: flex;
   flex-direction: column;
-  margin-left: 215px;
+  margin-top: 60px;
 }
 .contacts .logo {
   margin-top: 60px;
