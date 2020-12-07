@@ -3,6 +3,7 @@
 .top-heder {
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 
 .top-heder .container {
@@ -202,12 +203,10 @@ li {
   background: #2f303a;
   height: 600px;
   width: 100%;
-  left: 0px;
   top: 80px;
   border-radius: 0px;
-  padding-top: 200px;
+  padding: 200px 0;
   text-align: center;
-  /*flex-grow: 1;*/
 }
 
 /*============END-HERO============*/
@@ -305,6 +304,7 @@ li {
 
 .list-pictures-workers {
   display: flex;
+  justify-content: space-between;
 }
 
 .list-pictures-workers-item {
@@ -332,12 +332,18 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.186;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
   margin-top: 30px;
   margin-left: 60px;
   margin-right: 60px;
+  width: 151px;
+  height: 19px;
+  left: 275px;
+  top: 1925px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .title-second {
