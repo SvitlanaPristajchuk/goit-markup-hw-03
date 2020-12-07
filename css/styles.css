@@ -199,13 +199,14 @@ li {
   color: #ffffff;
 }
 
-.hero-black-section {
-  background: #2f303a;
-  height: 600px;
-  width: 100%;
-  top: 80px;
-  border-radius: 0px;
+.hero {
   padding: 200px 0;
+  background: #2f303a;
+}
+
+.hero-black-section {
+  width: 100%;
+  border-radius: 0px;
   text-align: center;
 }
 
@@ -215,6 +216,11 @@ li {
 
 .details .container {
   display: flex;
+}
+
+.details {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .priorities-list {
@@ -231,17 +237,12 @@ li {
   display: flex;
 }
 
-.priorities-list:not(:last-child) {
-  margin-right: 30px;
-}
-
 .priorities-list-item-decription {
   font: weight 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-top: 10px;
   margin-right: 30px;
 }
 
@@ -252,7 +253,6 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
-  margin-top: 94px;
   margin-right: 30px;
 }
 
@@ -262,10 +262,14 @@ li {
 
 /*=======what-are-we-doing-pictures==*/
 
+.pictures {
+  padding-top: 0px;
+  padding-bottom: 94px;
+}
+
 .title-second {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
 }
 
 .list-pictures-work {
@@ -283,9 +287,12 @@ li {
 /*=========our-team========*/
 
 .our-team {
+padding-top: 94px;
+padding-bottom: 94px;
+}
+.our-team {
   display: flex;
   background-color: #f5f4fa;
-  margin-top: 94px;
   height: 648px;
   width: 100%;
   left: 0px;
@@ -299,7 +306,7 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .list-pictures-workers {
@@ -309,23 +316,19 @@ li {
 
 .list-pictures-workers-item {
   margin-right: 30px;
-  margin-top: 50px;
+  padding-bottom: 30px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
 .professions {
-  font: weight 400;
   font-size: 16px;
   line-height: 1.186;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
-  margin-left: 70px;
-  margin-right: 70px;
-  margin-bottom: 30px;
 }
 
 .workers-names {
@@ -333,12 +336,6 @@ li {
   font-size: 16px;
   line-height: 1.186;
   margin-top: 30px;
-  margin-left: 60px;
-  margin-right: 60px;
-  width: 151px;
-  height: 19px;
-  left: 275px;
-  top: 1925px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   text-align: center;
@@ -374,12 +371,24 @@ li {
   margin-top: 60px;
 }
 
-.contacts .logo {
+/*.contacts .logo {
   margin-top: 60px;
+
+}*/
+
+.contact .logo {
+  margin-bottom: 20px;
+}
+
+.contact .contact-adress {
+  margin-bottom: 9px;
+}
+
+.contact .contact-email-footer {
+  margin-bottom: 9px;
 }
 
 .navigation-list-item {
-  font: weight 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -405,16 +414,13 @@ li {
   line-height: 1.174;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 9px;
 }
 
 .contact-tel-footer {
-  font: weight 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 9px;
 }
 
 /*===========end-contacts=======*/
