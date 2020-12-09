@@ -189,7 +189,6 @@ li {
 
 .list-pictures-item {
   width: 370px;
-  height: 404px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
@@ -217,8 +216,6 @@ li {
 
 .modal-btn-second {
   min-width: 103px;
-  height: 38px;
-  top: 174px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -281,10 +278,8 @@ li {
 .contacts {
   display: flex;
   background: #2f303a;
-  height: 252px;
   width: 100%;
-  left: 0px;
-  top: 2097px;
+  
 }
 
 .navigation-list-footer {
@@ -292,11 +287,6 @@ li {
   flex-direction: column;
   margin-top: 60px;
 }
-
-/*.contacts .logo {
-  margin-top: 60px;
-
-}*/
 
 .contact .logo {
   margin-bottom: 20px;
